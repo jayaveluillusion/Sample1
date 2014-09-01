@@ -29,7 +29,7 @@
 //}
 -(void)Button:(id)sender
 {
-    Helloworld.text=[NSString stringWithFormat:@"HelloWorld"];
+    Helloworld.text=[NSString stringWithFormat:@"WElcome"];
    
     
     
