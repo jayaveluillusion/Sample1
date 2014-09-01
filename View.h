@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface View : UIViewController
+{
+    IBOutlet UILabel *Helloworld;
+    
+}
+-(void)Button:(id)sender;
 
 @end

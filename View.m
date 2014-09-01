@@ -13,6 +13,10 @@
 @end
 
 @implementation View
+-(void)Button:(id)sender
+{
+    Helloworld.text=[NSString stringWithFormat:@"HelloWorld"];
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
