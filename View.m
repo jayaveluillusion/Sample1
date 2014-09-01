@@ -13,9 +13,27 @@
 @end
 
 @implementation View
+
+//-(void)sayHello
+//{
+//    [self saySomething:@"Hello WOrld"];
+//    
+//}
+//-(void)saySomething:(NSString *)greetings{
+//    NSLog(@"%@",greetings);
+//    
+//}
+//
+//-(void)sayFname:(NSString *)fname1{
+//    NSLog(@"%@",fname);
+//}
 -(void)Button:(id)sender
 {
     Helloworld.text=[NSString stringWithFormat:@"HelloWorld"];
+   
+    
+    
+    
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -30,13 +48,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSlog(@"Sample Message");
-	// Do any additional setup after loading the view.
+    
+	NSLog(@"viewDidLoad");
+    
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
+    NSLog(@"viewMemoryWarning");
     // Dispose of any resources that can be recreated.
 }
 

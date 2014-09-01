@@ -11,8 +11,15 @@
 @interface View : UIViewController
 {
     IBOutlet UILabel *Helloworld;
+    NSString *fname;
+    NSString *lname;
+    NSDate *date;
     
 }
+//-(void)sayHello;
+//-(void)saySomething:(NSString *)greetings;
+//-(void)sayFname:(NSString *)fname1;
+
 -(void)Button:(id)sender;
 
 @end
